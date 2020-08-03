@@ -4,6 +4,9 @@ import time
 FRAMES = 2
 TIMEBETWEEN = 6
 
+os.system("rm -rf cam/image*")
+os.system("rm -rf cam/out/image*");
+
 frameCount = 0
 while frameCount < FRAMES:
     imageNumber = str(frameCount)#.zfill(2)
