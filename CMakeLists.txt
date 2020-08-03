@@ -33,5 +33,5 @@ add_executable(test1 src/test/test1.cpp)
 add_executable(test2 src/test/test2.cpp)
 add_executable(test5 src/test/test5.cpp)
 add_executable(make-panorama src/test/make-panorama.cpp)
-
+add_executable(panorama-cam src/test/make-panorama-cam.cpp)
 add_subdirectory(src/pango)
